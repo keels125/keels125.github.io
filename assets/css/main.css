@@ -156,7 +156,7 @@ a:after {
 	background-position: center center;
 	min-height: 660px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -185,7 +185,7 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 #intro h5, p {
 	color: white;
@@ -281,13 +281,11 @@ sm {
 .circular{
 	width: 300px;
 	height: 300px;
-	margin: 0px auto;    
+	margin: 0px auto;
 	border-radius: 200px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url("../img/myphoto.jpg") no-repeat;
-	background-size: 300px 405px;
-	z-index: 1; 
+	background: url("../img/website_profile.jpg") no-repeat;
+	background-size: 300px 300px;
+	z-index: 1;
 }
-
-
