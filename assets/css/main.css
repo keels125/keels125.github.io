@@ -5,7 +5,7 @@ body {
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #000000;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -178,36 +178,56 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
-	background: #2c3e50;
+	background: #F0FFFF;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
 
 #intro h5, p {
-	color: white;
+	color: black;
 }
 
 #intro i {
-	color: white;
+	color: black;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
 }
 
+#projects {
+	background: #F0FFFF;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#work {
+	background: #f2f2f2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: black;
+}
+
+#courses {
+  background: #F0FFFF;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
 
 #skillswrap {
-	background: #2c3e50;
+	background: #F0FFFF;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
 
 #skillswrap h5, p {
-	color: white;
+	color: black;
 }
 
 #footwrap {
@@ -278,14 +298,14 @@ sm {
 }
 
 /* circular image*/
-.circular{
+.square{
 	width: 300px;
 	height: 300px;
 	margin: 0px auto;
-	border-radius: 200px;
+	/*border-radius: 200px;
 	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url("../img/website_profile.jpg") no-repeat;
+	-moz-border-radius: 150px;*/
+	background: url("../img/profpic.jpeg") no-repeat;
 	background-size: 300px 300px;
 	z-index: 1;
 }
