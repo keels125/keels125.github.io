@@ -31,8 +31,9 @@ p {
 
 /* Links */
 a {
-    color: #ff9800; /*91aa9d*/
+    color: white; /*91aa9d*/
     word-wrap: break-word;
+    font-weight: 300;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -43,7 +44,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #white;
     text-decoration: none;
     outline: 0;
 }
@@ -86,7 +87,7 @@ a:after {
 }
 
 #topbar-inner {
-	background: #111;
+	background: black;
 	line-height: 0;
 	text-align: center;
 }
@@ -115,6 +116,7 @@ a:after {
     padding: 0;
 
 }
+
 
 
 #section-topbar ul#nav a {
@@ -213,14 +215,13 @@ a:after {
 }
 
 #courses {
-  background: #F0FFFF;
+  background: black;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: white;
 }
 
 #skillswrap {
-	background: #F0FFFF;
+	background: #F2F2F2;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -228,6 +229,10 @@ a:after {
 
 #skillswrap h5, p {
 	color: black;
+}
+
+.col-lg-6 {
+  color: black;
 }
 
 #footwrap {
@@ -298,13 +303,13 @@ sm {
 }
 
 /* circular image*/
-.square{
+.circular{
 	width: 300px;
 	height: 300px;
 	margin: 0px auto;
-	/*border-radius: 200px;
+	border-radius: 200px;
 	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;*/
+	-moz-border-radius: 150px;
 	background: url("../img/profpic.jpeg") no-repeat;
 	background-size: 300px 300px;
 	z-index: 1;
