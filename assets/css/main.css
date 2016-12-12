@@ -1,6 +1,6 @@
 
 body {
-  background-color: #f2f2f2;
+  background-color: white;
 
     font-family: "Lato";
     font-weight: 300;
@@ -11,11 +11,15 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+#headerwrap {
+  background-color: #4682B4;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
+    color: #34495e;
 }
 
 
@@ -31,7 +35,7 @@ p {
 
 /* Links */
 a {
-    color: white; /*91aa9d*/
+    color: #191970; /*91aa9d*/
     word-wrap: break-word;
     font-weight: 300;
 
@@ -44,7 +48,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #white;
+    color: #191970;
     text-decoration: none;
     outline: 0;
 }
@@ -150,7 +154,8 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	/*background: url(../img/header-bg.jpg) no-repeat center top;*/
+  background-color: #191970
 	margin-top: 20px;
 	padding-top:80px;
 	text-align:center;
@@ -190,7 +195,7 @@ a:after {
 }
 
 #intro h5, p {
-	color: black;
+	color: #34495e;
 }
 
 #intro i {
@@ -198,6 +203,13 @@ a:after {
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
+}
+
+#education {
+  color: #f2f2f2
+  padding-top: 60px;
+	padding-bottom: 60px;
+	color: black;
 }
 
 #projects {
@@ -228,7 +240,7 @@ a:after {
 }
 
 #skillswrap h5, p {
-	color: black;
+	color: #34495e;
 }
 
 .col-lg-6 {
@@ -304,13 +316,13 @@ sm {
 
 /* circular image*/
 .circular{
-	width: 300px;
-	height: 300px;
+	width: 275px;
+	height: 275px;
 	margin: 0px auto;
 	border-radius: 200px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url("../img/profpic.jpeg") no-repeat;
-	background-size: 300px 300px;
+	background-size: 275px 275px;
 	z-index: 1;
 }
